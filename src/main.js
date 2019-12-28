@@ -4,7 +4,7 @@ const x = localStorage.getItem("x");
 const xObject = JSON.parse(x);
 const hashMap = xObject || [
   { logo: "B", url: "https://www.bilibili.com" },
-  { logo: "Z", url: "https://www.zhihu.cn" }
+  { logo: "Z", url: "https://www.zhihu.com" }
 ];
 const simplifyUrl = url => {
   return url
